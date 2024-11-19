@@ -1,0 +1,13 @@
+# Ignorar archivos grandes en DATA
+DATA/processed/*
+DATA/raw/*
+
+# Ignorar archivos con extensiones específicas
+*.csv
+*.gas
+*.dat
+
+# Ignorar checkpoints y archivos temporales
+*.ipynb_checkpoints/
+*.tmp
+*.log
